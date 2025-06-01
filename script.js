@@ -100,13 +100,13 @@ function tapLove(id) {
 
       loveMsg.textContent = '';
       typeWriterEffect(
-        `Chúc Ngân Nhi của anh 1/6 thật vui vẻ như một đứa trẻ, nhưng được anh yêu như một nữ hoàng 👑. Dù em có lớn bao nhiêu thì trong tim anh, em vẫn là công chúa bé bỏng cần được cưng chiều mỗi ngày! 💘`,
+        `Chúc TuanKiet của em 1/6 thật vui vẻ như một đứa trẻ, dù anh to xác nhưng anh vẫn luôn là embe trong lòng em 💘`,
         'loveMsg',
         () => {
           console.log('Bắt đầu thêm fromTag'); // Debug
           const fromTag = document.createElement("div");
           fromTag.id = 'fromTag';
-          fromTag.textContent = "From: Việt Anh";
+          fromTag.textContent = "MinhTu";
           fromTag.style.marginTop = "20px";
           fromTag.style.opacity = "0";
           fromTag.style.transition = "opacity 1s ease";
