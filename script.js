@@ -124,9 +124,13 @@ function tapLove(id) {
 }
 
 // Nhập tên với hiệu ứng "đánh lừa"
+
 async function inipesan() {
+  const targetName = "Tuấn Kiệt";
+  let currentIndex = 0;
+  
   const { value: typedName } = await Swal.fire({
-    title: 'Nhập Tên Của Bé Iuu đi',
+    title: 'Nhập Tên Của Anh Iuu đi',
     input: 'text',
     inputValue: '',
     allowOutsideClick: false,
